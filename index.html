@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bayanx Notes Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Bayanx Notes Android app (com.bayanxnotes).">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: one readable column; summary box up top, legal sections below */
+:root {
+  --bg: #ffffff; --fg: #1d2433; --muted: #5b6476; --line: #e3e6ec;
+  --accent: #2f5bd3; --card: #f4f6fb;
+  --display: "Sora", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg:#12151c; --fg:#e8ebf1; --muted:#a3abbb; --line:#2a303c; --accent:#8ea8ff; --card:#1a1e27; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg:#12151c; --fg:#e8ebf1; --muted:#a3abbb; --line:#2a303c; --accent:#8ea8ff; --card:#1a1e27; color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg); font: 16px/1.7 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+main { max-width: 720px; margin: 0 auto; }
+.app { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 0; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 4px 0 6px; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 19px; line-height: 1.3; margin: 32px 0 8px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+p { margin: 0 0 12px; }
+ul { padding-left: 22px; margin: 0 0 12px; }
+li { margin-bottom: 6px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.email { user-select: all; }
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.theme-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--card); }
+.theme-toggle button { font: 600 13px var(--body); color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.theme-toggle button[aria-pressed="true"] { background: var(--bg); color: var(--fg); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.theme-toggle button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main lang="en">
+<div class="topbar">
+  <p class="app">Bayanx Notes</p>
+  <div class="theme-toggle" role="group" aria-label="Color theme">
+    <button type="button" id="theme-light" data-set="light" aria-pressed="false">Light</button>
+    <button type="button" id="theme-dark" data-set="dark" aria-pressed="false">Dark</button>
+  </div>
+</div>
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: November 14, 2026 · Package name: com.bayanxnotes</p>
+
+<p>This policy explains how <strong>Bayanx Notes</strong> ("the app"), developed by <strong>BayanX</strong> ("we"), handles your data. By using the app you agree to this policy.</p>
+
+<div class="box"><strong>In short:</strong> your notes, PDFs and annotations stay on your device and are never sent to our servers. We show no ads and do not sell your data. We collect account and subscription data only if you sign in to use paid features.</div>
+
+<h2>1. Data that stays on your device</h2>
+<ul>
+  <li>Notes, folders and text you write.</li>
+  <li>PDF files you open or import, and your highlights, drawings and edits.</li>
+  <li>Your in-app settings and preferences.</li>
+</ul>
+<p>This data is stored locally in the app's storage on your device; we cannot access it. It is removed when you delete it in the app or uninstall the app. Android auto-backup is disabled for this app, so this data is not uploaded to your Google Drive.</p>
+<ul>
+  <li><strong>Translation</strong> runs on your device. Language data may be downloaded on first use, but the text being translated is not sent anywhere.</li>
+  <li><strong>Listen (read aloud)</strong> uses the text-to-speech engine installed on your device.</li>
+  <li><strong>PDF text recognition</strong> runs on your device. The app may download supporting components and language files over a secure connection; these requests contain none of your notes or pages.</li>
+</ul>
+
+<h2>2. Data we collect (only when you sign in)</h2>
+<p>Free features need no account. If you sign in to use paid features, we collect:</p>
+<ul>
+  <li><strong>Account information:</strong> name, email address and account ID, provided by Google or Apple when you sign in.</li>
+  <li><strong>Abuse-prevention identifier:</strong> a salted hash of your Google account ID, used to prevent repeated free trials.</li>
+  <li><strong>Feature usage counters:</strong> how many times you used Listen, Translate and Edit (the trial allows 10 uses per feature). The content itself is not recorded.</li>
+  <li><strong>Subscription data</strong> from Google Play: purchase token, product, subscription state, expiry date and latest order ID. We never receive your card details; payment is handled entirely by Google Play.</li>
+  <li><strong>Technical data:</strong> our server may briefly process request data such as your IP address for security and abuse prevention.</li>
+</ul>
+<p>We do not collect your location, contacts, photos, camera, microphone or advertising ID.</p>
+
+<h2>3. How we use data</h2>
+<ul>
+  <li>To create your account and sign you in.</li>
+  <li>To verify, restore and manage your subscription.</li>
+  <li>To enforce trial limits and prevent fraud and abuse.</li>
+  <li>To secure the service and keep it running reliably.</li>
+</ul>
+<p>We do not use your data for advertising, do not use the advertising ID, and do not sell your data to anyone.</p>
+
+<h2>4. Service providers</h2>
+<p>We share data only with providers that supply services needed to run the app, and only as far as needed:</p>
+<ul>
+  <li><strong>Cloud hosting provider:</strong> server hosting, database and authentication.</li>
+  <li><strong>Sign-in providers:</strong> the third-party sign-in service you choose to use.</li>
+  <li><strong>App store billing:</strong> the app store through which you buy a subscription, which processes the payment.</li>
+</ul>
+<p>We may also disclose data when required by law or to protect our rights and the safety of users.</p>
+
+<h2>5. Data security</h2>
+<p>Data sent between the app and our servers is encrypted in transit. Access to stored data is restricted by access-control rules, and unencrypted connections are not allowed. No system is 100% secure, but we take reasonable measures to protect your data.</p>
+
+<h2>6. Retention and deletion</h2>
+<ul>
+  <li>We keep account data while your account exists.</li>
+  <li>You can delete your account at any time in <strong>Settings → Account → Delete account</strong> in the app. If you no longer have the app, email us from the address linked to your account and we will delete it.</li>
+  <li>Deletion removes your account information, its link to your subscription and your usage counters. We keep only the hashed identifier and a "trial used" marker to prevent repeat trials, and may keep purchase records for as long as law or accounting requires.</li>
+  <li>Deleting your account does not cancel your subscription; cancel it in <a href="https://play.google.com/store/account/subscriptions">Google Play subscriptions</a>.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect personal data from them. If you learn that a child has created an account, contact us and we will delete it.</p>
+
+<h2>8. Your rights</h2>
+<p>Depending on the laws where you live, you may have the right to access, correct or delete your data, or to object to its processing. Contact us at the email below.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy. We will post the new version on this page with a new "Last updated" date, and notify you in the app if a change is significant.</p>
+
+<h2>10. Contact us</h2>
+<p>BayanX<br>Email: <strong class="email">bayanxomar@gmail.com</strong></p>
+
+<footer>Bayanx Notes · Privacy Policy · Last updated November 14, 2026</footer>
+</main>
+<script>
+(function () {
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('.theme-toggle button');
+  function current() {
+    var t = root.getAttribute('data-theme');
+    if (t === 'light' || t === 'dark') return t;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function sync() {
+    var t = current();
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === t)); });
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('bayanx-privacy-theme'); } catch (e) {}
+  if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      root.setAttribute('data-theme', b.dataset.set);
+      try { localStorage.setItem('bayanx-privacy-theme', b.dataset.set); } catch (e) {}
+      sync();
+    });
+  });
+  if (window.matchMedia) {
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    if (mq.addEventListener) mq.addEventListener('change', sync);
+  }
+  sync();
+})();
+</script>
+</body>
+</html>
